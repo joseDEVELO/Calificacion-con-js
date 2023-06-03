@@ -1,0 +1,51 @@
+*, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: #141519;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenedor{
+    width: 418px;
+    height: 423px;
+    background-color: #212832;
+    border-radius: 25px;
+    padding: 25px;
+    gap: 20px;
+}
+.star{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #222D36;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-image: url(/interactive-rating-component-main/images/icon-star.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+}
+.texto{
+margin-top: 35px;
+}
+.texto h2{
+    color: #FCFFFF;
+    margin-top: 16px;
+    font-size: 30px;
+
+}
+.texto p{
+    color: #979EA8;
+    text-align: left;
+    margin-top: 16px;
+    line-height: 25px;
+    font-size: 16.5px;
+}
