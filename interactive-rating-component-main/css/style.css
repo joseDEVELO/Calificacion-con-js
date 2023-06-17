@@ -39,7 +39,7 @@ margin-top: 35px;
 .texto h2{
     color: #FCFFFF;
     margin-top: 16px;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 .texto p{
@@ -49,3 +49,31 @@ margin-top: 35px;
     line-height: 25px;
     font-size: 16.5px;
 }
+.numero{
+}
+.numero ul{
+    list-style:none;
+    display: flex;
+    justify-content:space-evenly;
+}
+.numero li{
+    background-color: #222D36;
+    border: #222D36 2px solid;
+    padding: 15px 20px;
+    border-radius: 50px;
+    color: #868F98;
+    margin: 15px;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
+.boton input{
+    border-radius: 25px;
+    background-color: #FD7512;
+    border: #FD7512 2px solid;
+    width: 336px;
+    height: 47px;
+}
+
+
