@@ -1,9 +1,10 @@
-/* const numeros = document.querySelector("li");
+const btn = document.querySelector(".boton button");
+const ocultar = document.querySelector(".contenedor1");
+const show = document.querySelector(".contenedor2")
 
-numeros.forEach(i => {
-    i.addEventListener("click", clicklista);
-    function clicklista(){
-       i.classList.add('active') 
-    }
-});
- */
+btn.addEventListener("click", ocultarContenedor)
+function ocultarContenedor(){
+    console.log(ocultar);
+ocultar.style.display = "none"
+show.style.display = "flex"
+};

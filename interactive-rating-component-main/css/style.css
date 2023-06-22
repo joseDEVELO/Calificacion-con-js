@@ -21,6 +21,23 @@ body{
     margin: 0 30px;
     gap: 20px;
 }
+.contenedor2{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    display: none;
+}
+
+.Insignia{
+    background-color: hsl(213, 18%, 22%);
+    border-radius: 20px;
+    color: #FD7512;
+    padding: 12px;
+    width: 70%;
+
+}
 .star{
     width: 50px;
     height: 50px;
@@ -41,10 +58,23 @@ margin-top: 35px;
 .texto h2{
     color: #FCFFFF;
     margin-top: 16px;
-    font-size: 20px;
+    font-size: 30px;
 
 }
 .texto p{
+    color: #979EA8;
+    text-align: left;
+    margin-top: 16px;
+    line-height: 25px;
+    font-size: 16.5px;
+}
+.texto2 h2{
+    color: #FCFFFF;
+    margin-top: 16px;
+    font-size: 30px;
+    text-align: center;
+}
+.texto2 p{
     color: #979EA8;
     text-align: left;
     margin-top: 16px;
